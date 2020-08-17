@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>AXA</title>
     <link rel="icon" href="assets/images/axa.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/grid.css">
     <link rel="stylesheet" href="assets/responsive.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
   </head>
 <body>
@@ -27,9 +26,29 @@
     </div>	
 </header>
 
-<section id="hero_home" class="hero_img grid" style="background-image: url('assets/images/example.jpg')">
+<section id="hero_home" class="hero_img" style="background-image: url('assets/images/example.jpg')">
     <div class="inner hero ">
         <div class="form_wrapper">
+            <h2>Comunicate a <strong>0800-222-0365</strong></h2>
+            <p>o completá el formulario para que nos pongamos en contacto a la brevedad</p>
+            <form action="/action_page.php">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+            
+                <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="lastname" placeholder="">
+
+                <label for="lname">Email</label>
+                <input type="email" id="email" name="lastname" placeholder="">   
+
+                <label for="lname">Teléfono</label>
+                <input type="text" id="phone" name="lastname" placeholder="">
+
+                <input type="checkbox" id="acceptance" name="accept" value="accept">
+                <label for="acceptance"> Acepto recibir la información </label>
+
+                <input type="submit" value="Submit">
+              </form>
         </div>
     </div>
 </section>
@@ -45,8 +64,9 @@
 </section>
 
 <section id="beneficios">
-    <h3 class="col_12">Beneficios</h3>
     <div class="grid inner beneficios_wrapper">
+        <h3 class="col_12">Beneficios</h3>
+
         <div class="beneficio col_4">
             <img src="">
             <h4> Apoyo Emocional </h4>
@@ -104,6 +124,12 @@
         <h3> ¿Sabías que el 40% de las personas sienten ansiedad por el aislamiento? </h3>
         <a class="btn" href="#"> Quiero recibir más información </a>
     </div>
+
+    <div class="bullets_wrapper">
+        <a href=""> <div class="bullet"></div> </a>
+        <a href=""> <div class="bullet"></div> </a>
+        <a href=""> <div class="bullet"></div> </a>
+    </div>
 </section>
 
 <footer>
@@ -112,9 +138,9 @@
         <div class="social">
             <p>SEGUINOS EN</p>
                 <div>
-                    <a href="#"> <img src="assets/images/icons/facebook.svg" alt="logo facebook"> </a>
-                    <a href="#"> <img src="assets/images/icons/instagram.svg" alt="logo instagram"> </a>
-                    <a href="#"> <img src="assets/images/icons/youtube.svg" alt="logo youtube"> </a>
+                    <a href="#"> <i class="fab fa-facebook-square"></i> </a>
+                    <a href="#"> <i class="fab fa-instagram"></i> </a>
+                    <a href="#"> <i class="fab fa-youtube"></i> </a>
                 </div>
         </div>
     </div>

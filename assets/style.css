@@ -71,8 +71,11 @@ block; }
 
 /* -------- HOME -------- */
 
-.hero { height: 500px; padding: 100px; }
+.hero { display: flex; justify-content: flex-end; }
+#hero_home { background-size: cover; background-position: center top; background-repeat: no-repeat; }
 
+.form_wrapper { background-color: #0000b9; color: white; border-radius: 40px; padding: 60px; width: 500px; }
+form { text-align: left; }
 
 
 /* ------ SUB HERO ------ */
@@ -84,12 +87,14 @@ block; }
 /* ------ BENEFICIOS ------ */
 
 #beneficios { justify-items: center; text-align: center; }
+#beneficios h3 { color: #ff0023; }
 .beneficio { padding: 0 40px; }
+.beneficio h4 { color: blue; }
 .beneficios_wrapper { padding: 40px 0; }
 
 /* ------ PLANES ------ */
 
-#nuestros_planes { position: relative; height: 400px; }
+#nuestros_planes { position: relative; height: 380px; }
 .plan_btn { font-weight: normal; width: 200px; background-color: #fff; border: none; margin: unset; color: blue; margin-top: 44px; }
 .planes { display: flex; justify-content: space-evenly; }
 .planes_wrapper { position: absolute; bottom: -25%; width: 100%; }
@@ -99,11 +104,17 @@ block; }
 .planes >:nth-child(even) { background-color: red; }
 .planes >:nth-child(even) .plan_btn { color: red; }
 
+.plan_btn :hover { background: white !important; opacity: .8 !important; }
+
 /*------ FACT ------*/
 
-#fact { height: 700px; display: grid; }
+#fact { height: 601px; display: grid; row-gap: 45px; padding-top: 150px; }
 .data_fact { width: 100%; max-width: 590px !important; }
 .data_fact h3 { font-size: 35px; text-transform: initial; font-weight: normal; margin: 40px 0; line-height: 1.5; color: #868686; }
+
+.bullets_wrapper { display: flex; justify-content: center; }
+.bullet { width: 20px; height: 20px; background: #dfdfdf; border-radius: 50%; margin: 0 5px; } 
+.bullets_wrapper a :hover { opacity: .2; }
 
 
 
@@ -112,8 +123,7 @@ block; }
 input,
 select, 
 textarea { width: 100%; margin-bottom: 24px; font-family: 'Inter', sans-serif; min-height: 40px; line-height: 34px; border: 0; border-bottom: 1px solid #9ca1a5; background: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; font-size: 15px; color: #424B54; }
-input[type='submit'] { cursor: pointer; background: #FF4E4E; padding: 8px 36px; margin: auto; display: inline-block; text-align: center;  font-size:15px; opacity: 1; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; border-radius: 5px; min-height: 0; }
-textarea {  height: 100px; margin-bottom: 50px; resize: vertical; }
+input[type='submit'] { cursor: pointer; background: #e50000; color: #fff; text-align: center; font-size: 16px; opacity: 1; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; border-radius: 10px; min-height: 0; }
 input[type='radio'],
 input[type='checkbox'] { margin-right: 8px; border:0; height: auto !important; background: none; padding-left: 0; line-height: inherit; min-height: 0; position: relative; top: 1px; }
 input[type='radio']  { -webkit-appearance: radio; -moz-appearance: radio; appearance: radio;}
@@ -129,8 +139,11 @@ div.wpcf7-response-output { padding: 30px; border-width: 1px !important; }
 footer { padding: 25px; z-index: 1; display: grid; text-align: center; background-color: #e5e5e5; row-gap: 40px; }
 
 .social { text-align: right; display: flex; align-items: center; }
+.social p { margin-right: 15px; color: #868686; font-size: 19px; }
 .social a { margin-left: 10px; }
-.social img { height: 35px; display: inline-block; }
+.social i { font-size: 40px; color: #868686; }
+
+.social a:hover { opacity: .8; }
 
 .bottom { width: 100%; }
 
