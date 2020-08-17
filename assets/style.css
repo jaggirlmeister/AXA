@@ -90,11 +90,11 @@ block; }
 /* ------ PLANES ------ */
 
 #nuestros_planes { position: relative; height: 400px; }
-.plan_btn { width: 200px; background-color: #fff; border: none; margin: unset; color: blue; margin-top: 44px; }
+.plan_btn { font-weight: normal; width: 200px; background-color: #fff; border: none; margin: unset; color: blue; margin-top: 44px; }
 .planes { display: flex; justify-content: space-evenly; }
 .planes_wrapper { position: absolute; bottom: -25%; width: 100%; }
 .plan h4 { font-size: 43px; text-transform: uppercase; }
-.plan { height: 300px; width: 300px; justify-content: center; display: flex; flex-direction: column; align-items: center; }
+.plan { margin: 20px; height: 300px; width: 300px; justify-content: center; display: flex; flex-direction: column; align-items: center; }
 .planes > div { background-color: blue; color: #fff;}
 .planes >:nth-child(even) { background-color: red; }
 .planes >:nth-child(even) .plan_btn { color: red; }
