@@ -9,7 +9,7 @@ Version: 1.0
 /*----------- BASICS & LAYOUT -----------*/
 
 html{ scroll-behavior:smooth; } 
-body { background: #f7f7f7; font-family: 'Inter', sans-serif; color: #424B54; font-size:15px; line-height: 1.6; font-weight: 400; }
+body { background: #f7f7f7; font-family: 'ProximaNova-Regular'; color: #424B54; font-size:15px; line-height: 1.6; font-weight: 400; }
 .inner { margin: auto; position: relative; align-content: center; max-width: 1200px; }
 
 
