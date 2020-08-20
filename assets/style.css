@@ -74,7 +74,7 @@ block; }
 .hero { display: flex; justify-content: flex-end; }
 #hero_home { background-size: cover; background-position: center top; background-repeat: no-repeat; }
 
-.form_wrapper { background-color: #0000b9; color: white; border-radius: 40px; padding: 30px 60px; width: 500px; }
+.form_wrapper { background-color: rgb(0,0,147); color: white; border-radius: 40px; padding: 30px 60px; width: 500px; }
 form { text-align: left; margin: 20px 0px; }
 strong { font-size: 35px; }
 
@@ -90,19 +90,19 @@ strong { font-size: 35px; }
 #beneficios { justify-items: center; text-align: center; }
 #beneficios h3 { color: #ff0023; }
 .beneficio { padding: 0 40px; display: flex; flex-direction: column; align-items: center;}
-.beneficio h4 { color: blue; }
-.beneficio img { width: 80px; height: 80px; background: red; margin-bottom: 15px; }
+.beneficio h4 { color: rgb(0,0,147); }
+.beneficio img { width: 80px; height: 80px;margin-bottom: 15px; }
 .beneficios_wrapper { padding-bottom: 55px; }
 
 /* ------ PLANES ------ */
 
 #nuestros_planes { position: relative; height: 380px; }
-.plan_btn { font-weight: normal; width: 200px; background-color: #fff; border: none; margin: unset; color: blue; margin-top: 44px; }
+.plan_btn { font-weight: normal; width: 200px; background-color: #fff; border: none; margin: unset; color: rgb(0,0,147); margin-top: 44px; }
 .planes { display: flex; justify-content: space-evenly; }
 .planes_wrapper { position: absolute; bottom: -25%; width: 100%; }
 .plan h4 { font-size: 43px; text-transform: uppercase; }
 .plan { margin: 20px; height: 300px; width: 300px; justify-content: center; display: flex; flex-direction: column; align-items: center; }
-.planes > div { background-color: blue; color: #fff;}
+.planes > div { background-color: rgb(0,0,147); color: #fff;}
 .planes >:nth-child(even) { background-color: red; }
 .planes >:nth-child(even) .plan_btn { color: red; }
 
