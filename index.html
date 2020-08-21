@@ -31,25 +31,35 @@
 <section id="hero_home" class="hero_img" style="background-image: url('assets/images/hero.jpg')">
     <div class="inner hero ">
         <div class="form_wrapper">
-            <h2>Comunicate a <br><strong>0800-222-0365</strong></h2>
+            <h2>Comunicate al <br><strong>0800-222-0365</strong></h2>
             <p>o completá el formulario para que nos pongamos en contacto a la brevedad</p>
-            <form action="/action_page.php">
-                <label for="fname">Nombre</label>
-                <input type="text" id="fname" name="firstname" placeholder="">
-            
-                <label for="lname">Apellido</label>
-                <input type="text" id="lname" name="lastname" placeholder="">
+            <form class="grid form_grid" action="/action_page.php">
+                <div class="col_12">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+                </div>
+                
+                <div class="col_12">
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="">
+                </div>
+                
+                <div class="col_12">
+                    <label for="lname">Email</label>
+                    <input type="email" id="email" name="lastname" placeholder="">
+                </div>
+                   
 
-                <label for="lname">Email</label>
-                <input type="email" id="email" name="lastname" placeholder="">   
+                <label for="lname" class="col_12">Teléfono</label>
+                <input class="col_3" type="text" id="country" name="lastname" placeholder="">
+                <input class="col_3" type="text" id="area" name="lastname" placeholder="">
+                <input class="col_6" type="text" id="phone" name="lastname" placeholder="">
 
-                <label for="lname">Teléfono</label>
-                <input type="text" id="phone" name="lastname" placeholder="">
-
-                <input type="checkbox" id="acceptance" name="accept" value="accept">
-                <label for="acceptance"> Acepto recibir la información </label>
-
-                <input type="submit" class="btn" value="Enviar" required>
+                <div class="col_12">
+                    <input type="checkbox"id="acceptance" name="accept" value="accept">
+                    <label for="acceptance"> Acepto recibir información promocional por parte de Axa Assistance Argentina SA. </label>
+                    <input type="submit" class="btn" value="Enviar" required>
+                </div>
               </form>
         </div>
     </div>
