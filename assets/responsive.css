@@ -77,5 +77,5 @@
 
 	.center { flex-direction: column; }
 	#sub_home { display: flex; justify-content: center; }
-	#sub_home div:nth-child(2) { width: auto; margin-left: 0; text-align: center; }
+	#sub_home div:nth-child(2) { width: auto; margin-left: 0; text-align: center; padding-top: 25px; }
 }
