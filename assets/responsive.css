@@ -2,21 +2,6 @@
 	
 @media screen and (max-width: 1240px) { 
 	.inner { max-width: 90% !important; padding-left: 0; padding: 0;}	
-	.menu_btn { display: block; }
-	header nav, 
-	header .social { display: none; }
-	
-	#equipo {  margin: auto !important; }
-	
-	#descripcion_proyecto .inner { max-width: 100%; margin: auto; }
-	#nosotros,
-	#equipo { max-width: 100% !important; }
-	
-	#nosotros .inner { margin: auto !important; max-width: 90% !important; }
-	
-	#proyectos_home .inner { padding-right: 0 !important; max-width: 100% !important; padding-left: 5%; }
-	
-
 }
 
 
@@ -29,99 +14,31 @@
 	section { padding: 60px 0 !important; }
 	
 	h2 { margin-bottom: 32px; } 
+	h4 { font-size: 25px; }
+	p { font-size: 20px; }
+
+	footer p { font-size: 18px; }
 	
 	section > .grid,
 	section > .inner > .grid { grid-column-gap: 0 !important; }
 	
-	.btn { padding: 8px 24px; font-size: 14px; }
-	
-	header { height: 64px; padding: 14px 0; }
-	#menu_mobile #close_menu { top: 22px; right: 26px; }
-	#menu_mobile #close_menu img { width: 16px; }
-	#menu_mobile .social { right: 18px; }
-	
-	header #logo img { width: 130px; }
-	header .top {padding: 10px 0; }
+	.btn { padding: 8px 24px; font-size: 19px; }
+	header #logo img { width: 90px; }
 	.menu_btn { width: 20px; }
-	
-	#menu_mobile { width: 100%; right: -100%; }
-	#menu_mobile #close_menu { right: 5%; }
 	
 	
 	/* Home  */
-	
-	#hero_home { padding: 0 !important; }	
-	#hero_home .slide { height: calc(40vh); }
-	
-	#nosotros .grid { grid-row-gap: 0; }
-	#equipo { padding-top: 90px; }
-	
-	#nosotros .btn_about { right: auto; left: 0; bottom: -30px; }
-	#equipo .overlay { width: 100%; height: 100%; }
-	
-	#equipo .item:first-child { margin-bottom: 40px; }
-	#equipo .overlay { display: grid; align-content: center; justify-content: center; }
-	#equipo .overlay p { margin-bottom: 0; }
-	#equipo h3 { font-size: 22px; }
-	#equipo .mas img { width: 20px; }
-	
-	#galeria_proyectos_home .item { padding-right: 30px; }
-	#galeria_proyectos_home .slick-list { padding: 0 14% 0 0; }
 
-	#proyectos_home,
-	#contacto_home { padding-top: 0 !important; }
-	#contacto_home h3 { font-size: 33px; max-width: 96%; }
-	#proyectos_home h2 { font-size: 36px; }
-	
-	/* Single */
-	
-	#header_single { padding: 0 !important; }
-	
-	#header_single_mobile { height: calc(40vh); }
-	
-	#header_single > .inner { padding-top: 70px; padding-bottom: 0; }
-	#header_single h1 { font-size: 36px; margin-bottom: 10px; }
-	#header_single .txt_intro_proyecto p { font-size: 22px; }
-	#header_single .link { display: block; margin-bottom: 40px; }
-	#header_single .direccion .link { margin-top: 30px; }
-	
-	#imagen_intermedia { padding: 40px 0 !important; }
-	#imagen_intermedia img { max-width: 100%; }
-	
-	#imagen_intermedia .data { padding-left: 0; margin-top: 60px; border-bottom: 1px solid #ccc; padding-bottom: 40px; margin-bottom: -50px; }
-	#imagen_intermedia h3 { margin-bottom: 18px; }
-	#imagen_intermedia h2 { font-size: 36px; }
-	
-	#plantas .inner { margin: auto; display: block; }
-	#plantas .inner .item { margin: 0; margin-bottom: 50px; }
-	#plantas .inner .item:last-child { margin-bottom: 0; }
-	#plantas .inner .item h3 { margin-bottom: 20px; }
-	
-	#galeria_proyecto h3 { margin-bottom: 20px; }
-	
-	#detalles_tecnicos { padding: 40px 0 !important; }
-	#galeria_proyecto h3 { font-size: 18px; }
-	#galeria_proyecto .slick-prev { left: 110px !important; }
-	#galeria_proyecto .slick-next { left: 120px !important; }
-	
-	#asociados { padding: 0 0 40px !important; } 
-	#asociados .inner {  } 
-	
-	#descarga { padding: 30px 0 0 !important; }
-	#descarga a { font-size: 18px; border: 1px solid #A3816A; display: block; padding: 16px; }
-	#descarga a img { margin-left: 20px; width: 14px; }
-	
-	#contacto_proyecto h3 { font-size: 36px; }
-	
-	
-	
-	/* Pages */
-	
-	.wrapper_page { padding-top: 100px !important; }
-	#contacto_page h3 { font-size: 33px; margin-bottom: 40px; max-width: 96%;}
-		
+	#beneficios .grid { grid-row-gap: 63px; margin-bottom: 70px; }
+	.beneficio { padding: 0; }
+	.beneficio h4 { margin-bottom: 10px; }
+
+	.planes{ align-items: center; flex-direction: column; }
+	.planes_wrapper { bottom: -15%; }
 	
 	/* Footer */
+
+	.bottom { max-width: 90% !important; padding-left: 0; padding: 0; margin: auto; }
 	
 	footer { padding: 30px 0; }
 	footer .grid { grid-row-gap: 0; }
@@ -130,12 +47,12 @@
 	.contacto_footer .bottom span { display: inline-block; }
 	.contacto_footer .bottom span:after { content: ':'; }
 	
-	footer .social { margin-top: 30px; }
+	.social p { margin: 0; }
+
+	.social { flex-direction: column; }
+
+
 	.menu_footer p { bottom: 6px; }
-	
-	.contacto_footer .bottom > div { left: 0 !important; } 
-	#contacto_home .inner > div:last-child .big { margin: 30px 0 24px; }
-	
 	
 }
 		

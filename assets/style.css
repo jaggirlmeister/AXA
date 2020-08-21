@@ -40,9 +40,7 @@ h4 { font-size: 17px; }
 
 /*----------- HEADER -----------*/
 
-
-header, footer { display: flex; justify-content: space-between; align-items: center; }
-header a { padding: 15px; }
+header { display: grid; width: 100%; padding: 1em 0;}
 img.logo { width: 85px; }
 
 
@@ -113,7 +111,7 @@ strong { font-size: 35px; }
 
 /*------ FACT ------*/
 
-#fact { height: 601px; display: grid; row-gap: 45px; padding-top: 150px; }
+#fact { height: 540px; display: grid; row-gap: 45px; padding-top: 150px; }
 .data_fact { width: 100%; max-width: 590px !important; }
 .data_fact h3 { font-size: 35px; text-transform: initial; font-weight: bold; margin: 40px 0; line-height: 1.5; color: rgb(102,102,102); }
 
