@@ -77,7 +77,8 @@ block; }
 .form_wrapper p { font-size: 17px; letter-spacing: 1px; }
 form { text-align: left; margin: 20px 0px; }
 .form_grid { grid-column-gap: 20px!important; grid-row-gap: 7px!important; }
-strong { font-size: 35px; color: #fff!important; font-weight: bold; }
+strong { font-size: 35px; color: #fff!important; font-weight: bold; -webkit-text-fill-color: rgb(255, 255, 255); color: rgb(255, 255, 255);
+}
 
 
 /* ------ SUB HERO ------ */
