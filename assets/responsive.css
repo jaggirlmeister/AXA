@@ -77,7 +77,7 @@
 	p { font-size: 18px; }
 	section { min-height: 100vh !important; }
 
-	strong { font-size: 32px; color: #fff !important; }
+	strong { font-size: 30px; font-weight: bold; }
 
 	.center { flex-direction: column; }
 	#sub_home { display: flex; justify-content: center; }
