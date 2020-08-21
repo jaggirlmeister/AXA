@@ -15,7 +15,7 @@ body { background: #f7f7f7; font-family: 'ProximaNova-Regular'; color: #424B54; 
 
 p { font-size: 15px; }
 a {  }
-strong { color: #fff; }
+strong { color: #fff !important; }
 section { padding: 50px 0; justify-items: center; text-align: center; }
 
 
@@ -73,6 +73,8 @@ block; }
 #hero_home { background-size: cover; background-position: center top; background-repeat: no-repeat; }
 
 .form_wrapper { background-color: rgb(0,0,147); color: white; border-radius: 40px; padding: 30px 60px; width: 500px; }
+.form_wrapper h2 { font-size: 21px; letter-spacing: 1px; }
+.form_wrapper p { font-size: 17px; letter-spacing: 1px; }
 form { text-align: left; margin: 20px 0px; }
 .form_grid { grid-column-gap: 20px!important; grid-row-gap: 7px!important; }
 strong { font-size: 35px; }
