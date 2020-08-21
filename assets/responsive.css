@@ -10,7 +10,6 @@
 	.mobile_block { display: block; }
 	.mobile_none { display: none; }
 	
-	body { }
 	section { padding: 60px 0 !important; }
 	
 	h2 { margin-bottom: 32px; } 
@@ -28,17 +27,9 @@
 
 	/* Form */
 
-
 	form .col_3 { grid-column: span 3 !important; }
 	form .col_6 { grid-column: span 6 !important; }
-	.form_wrapper h2 { margin-bottom: 17px !important; }
-
-	/*
-	#country { grid-column: span 3 !important; }
-	#area { grid-column: span 3 !important; }
-	#phone { grid-column: span 3 !important; }
-	*/
-	
+	.form_wrapper h2 { margin-bottom: 17px !important; }	
 	
 	/* Home  */
 
@@ -57,16 +48,13 @@
 	footer .grid { grid-row-gap: 0; }
 	
 	.menu_footer ul { margin-bottom: 22px; }
+	.menu_footer p { bottom: 6px; }
+
 	.contacto_footer .bottom span { display: inline-block; }
 	.contacto_footer .bottom span:after { content: ':'; }
 	
 	.social p { margin: 0; }
-
 	.social { flex-direction: column; }
-
-
-	.menu_footer p { bottom: 6px; }
-	
 }
 		
 

@@ -14,7 +14,6 @@ body { background: #f7f7f7; font-family: 'ProximaNova-Regular'; color: #424B54; 
 
 
 p { font-size: 15px; }
-a {  }
 strong { color: #fff !important; }
 section { padding: 50px 0; justify-items: center; text-align: center; }
 
@@ -27,10 +26,6 @@ section { padding: 50px 0; justify-items: center; text-align: center; }
 
 /* Headings */
 
-h1,
-h2,
-h3,
-h4 { }
 
 h1 { font-size: 65px; text-transform: uppercase; color: rgb(0,0,127); }
 h2 { font-size: 15px; }
@@ -45,27 +40,6 @@ img.logo { width: 85px; }
 
 
 /* Menu Mobile */
-
-.menu_btn { display: none; width: 26px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateY(-50%); right: 0; position:absolute; border:0; cursor:pointer; padding: 0; background:none; }
-
-.menu_btn:hover { opacity:0.8;}
-.menu_btn span {  width: 26px; height: 4px; background:#FE5000; display:block; border-radius: 30%; }
-.menu_btn span:after,
-.menu_btn span:before { content:''; width: 26px; height: 4px; background:inherit; display:block; }
-.menu_btn span:before { position:relative; top: -8px;}
-.menu_btn span:after { position:relative; top: 4px;}
-
-
-#menu_mobile {  width: 420px; height: 100%; padding: 30px 5%; position: fixed; right: -420px; top: 0; z-index: 10000; display:grid;  align-items: center; box-shadow: -3px 0 7px rgba(0,0,0,.1); background: #f7f7f7; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s;  }
-#menu_mobile.active { right: 0; }
-#menu_mobile #close_menu { position: absolute; top: 39px; right: 46px; }
-#menu_mobile #close_menu img { width: 22px; }
-#menu_mobile nav > ul > li > a { margin-bottom: 20px; text-align: left;  opacity: 1; color: #424B54; font-size: 16px; text-transform: uppercase; font-weight: 600; display: 
-block; }
-#menu_mobile li a:hover { opacity:.8; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
-#menu_mobile .social { margin-top: 40px; text-align: right; position: absolute; bottom: 40px; right: 46px; }
-#menu_mobile .social a { color: rgb(102,102,102); margin-left: 4px; font-size: 22px; }
-
 
 /* -------- HOME -------- */
 
