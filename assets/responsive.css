@@ -25,6 +25,18 @@
 	.btn { padding: 8px 24px; font-size: 19px; }
 	header #logo img { width: 90px; }
 	.menu_btn { width: 20px; }
+
+	/* Form */
+
+
+	form .col_3 { grid-column: span 3 !important; }
+	form .col_6 { grid-column: span 6 !important; }
+
+	/*
+	#country { grid-column: span 3 !important; }
+	#area { grid-column: span 3 !important; }
+	#phone { grid-column: span 3 !important; }
+	*/
 	
 	
 	/* Home  */
@@ -58,6 +70,12 @@
 		
 
 @media screen and (max-width: 540px) { 
-	
+	h4 { font-size: 20px; }
+	h3 { font-size: 28px!important; }
+	p { font-size: 18px; }
 	section { min-height: 100vh !important; }
+
+	.center { flex-direction: column; }
+	#sub_home { display: flex; justify-content: center; }
+	#sub_home div:nth-child(2) { width: auto; margin-left: 0; text-align: center; }
 }
