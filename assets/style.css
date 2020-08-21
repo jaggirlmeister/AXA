@@ -62,12 +62,12 @@ form { text-align: left; margin: 20px 0px; }
 strong { font-size: 35px; color: #fff!important; font-weight: bold; -webkit-text-fill-color: rgb(255, 255, 255); color: rgb(255, 255, 255); }
 
 
-/* ------ SUB HERO ------ */
+/* ------ SUB HOME ------ */
 
-.center { display: flex; justify-content: center; align-items: center; }
+#sub_home .grid { grid-column-gap: 60px;}
 #sub_home { padding: 33px 0!important; }
-#sub_home div:first-child { text-align: center; }
-#sub_home div:nth-child(2) { width: 400px; margin-left: 45px; text-align: left; color: #444042; }
+#sub_home div:first-child { text-align: center; justify-self: right; }
+#sub_home div:nth-child(2) { width: 400px; align-self: center; text-align: left; color: #444042; }
 
 /* ------ BENEFICIOS ------ */
 
