@@ -72,8 +72,11 @@
 @media screen and (max-width: 540px) { 
 	h4 { font-size: 20px; }
 	h3 { font-size: 28px!important; }
+	h2 { font-size: 18px; }
 	p { font-size: 18px; }
 	section { min-height: 100vh !important; }
+
+	strong { font-size: 32px; }
 
 	.center { flex-direction: column; }
 	#sub_home { display: flex; justify-content: center; }

@@ -15,7 +15,7 @@ body { background: #f7f7f7; font-family: 'ProximaNova-Regular'; color: #424B54; 
 
 p { font-size: 15px; }
 a {  }
-strong { }
+strong { color: #fff; }
 section { padding: 50px 0; justify-items: center; text-align: center; }
 
 
