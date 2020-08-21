@@ -127,7 +127,7 @@ div.wpcf7-response-output { padding: 30px; border-width: 1px !important; }
 /* -------- FOOTER -------- */
 
 footer { padding: 25px; z-index: 1; display: grid; text-align: center; background-color: #e5e5e5; row-gap: 40px; }
-
+.bottom p { font-size: 14px;  }
 .social { text-align: right; display: flex; align-items: center; }
 .social p { margin-right: 15px; color: rgb(102,102,102); font-size: 19px; }
 .social a { margin-left: 10px; display: inline-block; }

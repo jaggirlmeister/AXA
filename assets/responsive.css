@@ -16,7 +16,7 @@
 	h4 { font-size: 25px; }
 	p { font-size: 20px; }
 
-	footer p { font-size: 18px; }
+	footer p { font-size: 10px; }
 	
 	section > .grid,
 	section > .inner > .grid { grid-column-gap: 0 !important; }
@@ -46,12 +46,6 @@
 	
 	footer { padding: 30px 0; }
 	footer .grid { grid-row-gap: 0; }
-	
-	.menu_footer ul { margin-bottom: 22px; }
-	.menu_footer p { bottom: 6px; }
-
-	.contacto_footer .bottom span { display: inline-block; }
-	.contacto_footer .bottom span:after { content: ':'; }
 	
 	.social p { margin: 0; }
 	.social { flex-direction: column; }
