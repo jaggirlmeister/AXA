@@ -17,6 +17,12 @@ p { font-size: 15px; }
 strong { color: #fff !important; }
 section { padding: 50px 0; justify-items: center; text-align: center; }
 
+::-webkit-input-placeholder { color: #7a7a7a; opacity: 1;  }
+::-moz-placeholder { color: #7a7a7a;  opacity: 1;}
+:-ms-input-placeholder { color: #7a7a7a;   opacity: 1;}
+:-moz-placeholder { color: #7a7a7a;   opacity: 1;}
+
+
 
 .btn { color: #ff0023; background: none; padding: 6px 24px; margin: auto; font-weight: bold; letter-spacing: 0.5px; display: inline-block; border: 2px solid #ff0023; border-radius: 10px; text-align: center; font-size:20px; opacity: 1; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s;  }
 .btn:hover { background:#ff0023; color: #fff; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
@@ -27,7 +33,7 @@ section { padding: 50px 0; justify-items: center; text-align: center; }
 /* Headings */
 
 
-h1 { font-size: 80px; text-transform: uppercase; color: rgb(0,0,127); }
+h1 { font-size: 113px; text-transform: uppercase; color: rgb(0,0,127); }
 h2 { font-size: 15px; }
 h3 { font-size: 30px; text-transform: uppercase; }
 h4 { font-size: 17px; }
@@ -61,7 +67,7 @@ strong { font-size: 35px; color: #fff!important; font-weight: bold; -webkit-text
 .center { display: flex; justify-content: center; align-items: center; }
 #sub_home { padding: 33px 0!important; }
 #sub_home div:first-child { text-align: center; }
-#sub_home div:nth-child(2) { width: 400px; margin-left: 30px; text-align: left; }
+#sub_home div:nth-child(2) { width: 400px; margin-left: 45px; text-align: left; color: #444042; }
 
 /* ------ BENEFICIOS ------ */
 
