@@ -101,10 +101,17 @@ strong { font-size: 35px; color: #fff!important; font-weight: bold; -webkit-text
 
 .bullets_wrapper { display: flex; justify-content: center; }
 .bullet { width: 20px; height: 20px; background: #dfdfdf; border-radius: 50%; margin: 0 5px; opacity: .5;} 
-/* .bullets_wrapper a :hover { opacity: .8; } */
 
-.slide { display:none; }
-.slide.active { display:block; }
+.slide { 
+    transition: opacity 300ms linear;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+ }
+.slide.active { 
+    opacity: 1;
+    height: auto;
+ }
 .bullet.active { opacity: 1; }
 
 

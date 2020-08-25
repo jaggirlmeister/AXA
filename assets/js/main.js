@@ -1,7 +1,25 @@
 
 //Slider
+
+
+const main = () => {
+    
+//Parámetros
 let slideIndex = 1;
-let interval = 4000;
+let interval = 6000;
+let timer = null;
+
+const initBullets = () => {
+    const slides = document.querySelectorAll('.slide');
+    const bulletWrapper = document.querySelector('.bullets_wrapper');
+    for (let index = 1; index <= slides.length; index++) {
+        let dot = document.createElement('span');
+        const active = index === 1 ? 'active' : '';
+        dot.innerHTML = '<a class="handleSlide" data-slide="' + index + '" href="#"><div class="bullet ' + active + '"></div></a>';
+        bulletWrapper.append(dot)
+    }
+}
+
 const changeSlide = slideActual => {
     const slides = document.querySelectorAll('.slide');
     slides.forEach(slide => {
@@ -12,16 +30,6 @@ const changeSlide = slideActual => {
             slide.classList.remove('active');
         }
     });
-}
-const initBullets = () => {
-    const slides = document.querySelectorAll('.slide');
-    const bulletWrapper = document.querySelector('.bullets_wrapper');
-    for (let index = 1; index <= slides.length; index++) {
-        let dot = document.createElement('span');
-        const active = index === 1 ? 'active' : '';
-        dot.innerHTML = '<a class="handleSlide" data-slide="' + index + '" href="#"><div class="bullet ' + active + '"></div></a>';
-        bulletWrapper.append(dot)
-    }
 }
 
 const changleBullet = bulletActual => {
@@ -35,11 +43,24 @@ const changleBullet = bulletActual => {
     });
 }
 
+const moverSlide = () => {
+    const slides = document.querySelectorAll('.slide');
+    if (slideIndex >= slides.length) {
+        slideIndex = 1;
+    } else {
+        slideIndex++;
+    }
+    changeSlide(slideIndex);
+    changleBullet(slideIndex)
+}
+
 const handleBulletsClick = () => {
     const bullets = document.querySelectorAll('.handleSlide');
     bullets.forEach(bullet => {
         bullet.addEventListener('click', (e) => {
             e.preventDefault();
+            window.clearInterval(timer);
+            timer = setInterval(() => moverSlide(), interval);
             changeSlide(bullet.dataset.slide)
             changleBullet(bullet.dataset.slide)
         })
@@ -48,17 +69,13 @@ const handleBulletsClick = () => {
 
 const sliderMain = () => {
     initBullets();
-    handleBulletsClick();
     changeSlide(slideIndex);
-    setInterval(() => {
-        const slides = document.querySelectorAll('.slide');
-        if (slideIndex >= slides.length){
-            slideIndex = 1;
-        }else{
-            slideIndex++;
-        }
-        changeSlide(slideIndex);
-        changleBullet(slideIndex)
-    }, interval);
+    timer = setInterval(() => moverSlide(), interval);
+    handleBulletsClick();
 }
+
 sliderMain();
+
+}
+
+main();
