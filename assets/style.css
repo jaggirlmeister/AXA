@@ -97,12 +97,15 @@ strong { font-size: 35px; color: #fff!important; font-weight: bold; -webkit-text
 
 #fact { height: 540px; display: grid; row-gap: 45px; padding-top: 150px; }
 .data_fact { width: 100%; max-width: 590px !important; }
-.data_fact h3 { font-size: 35px; text-transform: initial; font-weight: bold; margin: 40px 0; line-height: 1.5; color: rgb(102,102,102); }
+.data_fact h3 { font-size: 35px; text-transform: initial; font-weight: bold; margin: 40px 0; line-height: 1.5; color: rgb(102,102,102); min-height: 100px; }
 
 .bullets_wrapper { display: flex; justify-content: center; }
-.bullet { width: 20px; height: 20px; background: #dfdfdf; border-radius: 50%; margin: 0 5px; } 
-.bullets_wrapper a :hover { opacity: .5; }
+.bullet { width: 20px; height: 20px; background: #dfdfdf; border-radius: 50%; margin: 0 5px; opacity: .5;} 
+/* .bullets_wrapper a :hover { opacity: .8; } */
 
+.slide { display:none; }
+.slide.active { display:block; }
+.bullet.active { opacity: 1; }
 
 
 /* -------- FORMS & CONTACTO -------- */
